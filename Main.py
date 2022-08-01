@@ -41,7 +41,7 @@ class Solution:
           True if it is empty, else returns False.
         """
         # Write your code here
-        if (self.front == -1 and self.rear == -1) || self.front>self.rear:
+        if (self.front == -1 and self.rear == -1) or self.front>self.rear:
             return True
         else:
             return False
