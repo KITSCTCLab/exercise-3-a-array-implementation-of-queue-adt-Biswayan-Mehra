@@ -89,11 +89,11 @@ class Solution:
         """
         # Write your code here
         if self.is_queue_empty():
-            rear +=1
-            front += 1
+            self.rear +=1
+            self.front += 1
             self.queue.append(character)
         elif not self.is_queue_full():
-            rear +=1
+            self.rear +=1
             self.queue.append(character)
             
 
