@@ -30,7 +30,7 @@ class Solution:
         """
         # Write your code here
         if self.top == -1:
-            return True:
+            return True
         else:
             return False
 
