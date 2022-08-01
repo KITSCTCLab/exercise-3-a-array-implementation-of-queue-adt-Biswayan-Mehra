@@ -65,7 +65,7 @@ class Solution:
           True if it is full, else returns False.
         """
         # Write your code here
-        if self.rear == max-1:
+        if self.rear == self.size-1:
             return True
         else:
             return False
@@ -92,7 +92,7 @@ class Solution:
             self.rear +=1
             self.front += 1
             self.queue.append(character)
-        elif not self.is_queue_full():
+        if not self.is_queue_full():
             self.rear +=1
             self.queue.append(character)
             
